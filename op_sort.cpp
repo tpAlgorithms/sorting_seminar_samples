@@ -34,8 +34,8 @@ bool my_less(const int &lhs, const int &rhs) {
 }
 
 void my_sort(
-    const int* begin,
-    const int *end,
+    int* begin,
+    int *end,
     bool (*_less)(const int&, const int&)
 //    bool(_less)(const int&, const int&)
 ) {

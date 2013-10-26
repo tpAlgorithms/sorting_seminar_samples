@@ -38,8 +38,8 @@ struct my_less_t {
 
 template <typename less_t>
 void my_sort(
-    const int* begin,
-    const int *end,
+    int* begin,
+    int *end,
     const less_t& _less
 ) {
   std::sort(begin, end, _less);
