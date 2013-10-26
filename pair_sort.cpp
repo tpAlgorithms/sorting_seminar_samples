@@ -9,7 +9,7 @@ struct pair_t {
 };
 
 bool less(const pair_t &lhs, const pair_t &rhs) {
-  return (lhs.a + lhs.b)  < (rhs.a + rhs.b);
+  return (lhs.a + lhs.b) < (rhs.a + rhs.b);
 }
 
 int main() {
